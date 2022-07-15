@@ -1,0 +1,70 @@
+body {
+
+}
+
+.message-form {
+    width: 480px;
+    margin: auto;
+    border: 2px solid black;
+    font-family: monospace;
+}
+
+.message-form-inputs {
+    padding: 10px;
+    background-color: aqua;
+    font-family: cursive;
+}
+
+.message-form-inputs > * {
+    display: block;
+    width: 100%;
+}
+
+.message-form-inputs {
+    padding: 5px 70px 10px 50px;
+}
+
+.message-form-actions {
+    overflow: auto;
+    background-color: grey;
+    padding: 20px;
+}
+
+label {
+    margin: 2px
+}
+
+input {
+    padding: 10px 5px 10px 5px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+textarea {
+    padding: 10px 5px 10px 5px;
+    font-family: monospace;
+}
+
+button {
+    float: right;
+    margin-left: 20px;
+    background-color: lemonchiffon;
+    border: none;
+    box-shadow: 5px 5px 5px black;
+    font-size: 16px;
+}
+
+.message-form-actions button:hover {
+    color: whitesmoke
+}
+
+
+
+
+
+
+
+
+
+
+
+

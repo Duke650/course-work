@@ -1,0 +1,44 @@
+footer {
+    display: flex;
+    background-color: peru;
+    justify-content: center;
+    padding: 18px;
+    margin-top: 30px;
+    font-family: dosis;
+}
+
+section {
+    margin-right: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+section:last-of-type {
+    margin-right: 0%;
+}
+
+h2 {
+    color: white;
+    border-bottom: 2px solid white;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    letter-spacing: 3px;
+}
+
+footer a{
+    display: flex;
+    
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+a:hover {
+    border-bottom: 1px solid white;
+    margin-bottom: 4px;
+}
+
+

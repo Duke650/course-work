@@ -1,0 +1,69 @@
+#gsw {
+    height: 150px;
+    float: left;
+    padding-right: 15px
+}
+
+#coffee {
+    height: 120px;
+    width: 200px
+}
+
+
+.me {
+    margin: 25px
+}
+
+.intro {
+    background-color: yellow;
+    margin-top: 0px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 10px;
+    padding-bottom: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.ball {
+    margin-top: 0px;
+}
+
+#coffee {
+    float: right;
+    padding-left: 10px;
+}
+
+header {
+    background-color: aliceblue;
+    margin-top: 0px;
+}
+
+a {
+    text-align: right;
+    padding-left: 50px;
+    color: black;
+    font-size: 40px;
+}
+
+.name-link {
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+p {
+    font-size: 18px;
+    font-family: unset;
+}
+
+.p2 {
+    margin-top: 30px;
+}
+
+.p3 {
+    padding-bottom: 30px;
+}
+
+

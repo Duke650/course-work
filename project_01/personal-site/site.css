@@ -1,0 +1,155 @@
+* {
+    box-sizing: border-box;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    
+}
+body {
+    background-color: blue;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+main {
+    background-color: gold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-top: 25px;
+
+}
+
+header {
+    background-color: aliceblue;
+    margin-top: 0px;
+    top: 0;
+    padding-right: 10px;
+    padding-bottom: 15px;
+}
+
+.links {
+    float: right;
+}
+
+#gsw {
+    height: 150px;
+    float: left;
+    padding-right: 15px
+}
+
+#coffee {
+    float: right;
+    height: 120px;
+    width: 200px
+}
+
+a {
+    text-align: right;
+    padding-left: 50px;
+    color: black;
+    font-size: 35px;
+    font-family: cursive;
+    text-decoration: none;
+    margin-right: 10px;
+}
+
+a:active {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: yellow;
+}
+
+.name-link {
+    font-size: 40px;
+}
+
+footer {
+    position: fixed;
+    background-color: aliceblue;
+    padding-top: 10px;
+    margin-top: 5px;
+    bottom: 0;
+    
+}
+
+#fb, #ig, #twitter {
+    align-content: center;
+    height: 40px;
+    display: inline-block;
+    margin-left: 225px;
+}
+
+p {
+    font-size: 18px;
+    font-family: unset;
+}
+
+.hobbies {
+    font-size: 30px;
+}
+
+.about-me {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+
+.quote {
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.george {
+    text-align: center;
+    font-size: 25px;
+    padding-bottom: 5px;
+}
+
+
+.first {
+    /* float: right; */
+    /* margin: absolute; */
+    margin-top: 60px;
+    padding-bottom: 3px;
+    /* height: 100px; */
+    padding: 5px;
+    /* border: 3px solid black; */
+}
+
+#or {
+    color: black;
+    font-size: 30px;
+}
+
+#nature {
+    height: 120px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border: 5px solid rgb(0, 0, 0);
+}
+
+.hobbies {
+    padding-top: 15px;
+}
+
+.inner {
+    color: rgb(16, 12, 12);
+    padding-top: 25px;
+}
+
+.me {
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.ball {
+    font-size: 50px;
+    font-family: monospace;
+}

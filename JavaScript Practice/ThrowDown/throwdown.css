@@ -1,0 +1,97 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 0px;
+    padding: 0px;
+    
+    background-color: hsl(36, 64%, 66%);
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin: auto;
+
+
+    color: rgb(255, 255, 255);
+}
+
+.start-btn {
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    
+}
+
+
+
+button {
+    background-color: hsl(211, 94%, 61%);
+    padding: 20px 70px;
+    margin: 20px;
+    font-family: monospace;
+    font-size: 30px;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    overflow: auto;
+    text-align: center;
+}
+
+.all {
+    display: flex;
+    justify-content: center;
+    
+}
+
+h1 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 50px;
+    text-align: center;
+}
+
+span {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 50px;
+    font-family: monospace;
+    font-weight: bold;
+    width: 500px;
+}
+
+.art {
+    display: flex;
+    flex-basis: 150px;
+    flex-direction: column;
+    padding: 30px;
+}
+
+hr {
+    border-top: 5px dashed hsl(211, 94%, 61%);
+    border-bottom: none;
+    width: 100%;
+}
+
+button:hover {
+border: none;
+background-color: rgb(24, 142, 216);
+}
+
+img {
+    margin-top: 25px;
+    display: block;
+    width: 50%;
+    border: 2px solid black;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+

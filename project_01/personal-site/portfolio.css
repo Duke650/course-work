@@ -1,0 +1,95 @@
+* {
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.nature {
+    height: 120px;
+    float: left;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border: 5px solid black;
+
+}
+
+.first {
+    height: 100px;
+    background-color: black;
+    border: 5px solid black
+}
+
+.stuff {
+    font-size: 40px;
+    text-align: center;
+    margin: 5px solid black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 15px;
+}
+
+#link-1 {
+
+    padding: 7px;
+    border-left: 100%;
+    color: black;
+    font-size: 30px;
+    padding-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+p {
+    font-family: fantasy;
+}
+
+body {
+    background-color: blue;
+    padding-left: 100px;
+    padding-right: 130px;
+}
+
+
+.first {
+    float: right;
+    margin: absolute;
+    margin-top: 60px;
+    padding-bottom: 3px;
+}
+
+#or {
+    color: black;
+    font-size: 30px;
+}
+
+.first-project {
+    text-align: center;
+    background-color: white;
+    border: 5px solid black;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+    padding: 10px;
+}
+
+.second-project {
+    text-align: center;
+    background-color: white;
+    border: 2px solid black;
+    margin-bottom: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: black;
+    padding: 10px;
+}
+
+a {
+    text-align: right;
+    padding-left: 50px;
+}
+    
+
+a {
+    color: black
+}
+
+.links {
+    float:right
+}

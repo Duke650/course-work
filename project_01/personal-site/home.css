@@ -1,0 +1,64 @@
+
+body {
+    background-color: blue;
+    padding-left: 100px;
+    padding-right: 130px;
+    padding-bottom: 0px;
+    margin-bottom: 20px;
+}
+
+main {
+    background-color: gold;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 100px;
+    padding-top: 15px;
+}
+
+.inner {
+    color: rgb(16, 12, 12);
+    padding-top: 50px;;
+}
+
+.name {
+    color:black
+}
+
+a {
+    color: black
+}
+.name-link {
+    font-size: 30px;
+}
+
+.hobbies {
+    text-align: center;
+    font-size: 30px;
+}
+
+.about-me {
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 100px;
+}
+
+.quote {
+    text-align: center;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+.george {
+    text-align: center;
+    font-size: 25px;
+}
+
+a {
+    text-align: right;
+    padding-left: 50px;
+}
+
+header {
+    background-color: aliceblue;
+    margin-top: 0px;
+}

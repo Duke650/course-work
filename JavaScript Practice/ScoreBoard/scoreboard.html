@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="scoreboard.css">
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <div>
+                    <h3>HOME</h3>
+                </div>
+                <div>
+                    <h3>GUEST</h3>
+                </div>
+            </div>
+            <div class="total-score">
+                <span id="score-home">0</span>
+                <span id="score-guest">0</span>
+            </div>
+
+            <div class="score-counter">
+                <div class="group-home">
+                    <button id="home-score-1" onclick="addOneToHome()">+1</button>
+                    <button id="home-score-2" onclick="addTwoToHome()">+2</button>
+                    <button id="home-score-3" onclick="addThreeToHome()">+3</button>
+                </div>
+                <div class="group-guest">
+                    <button id="guest-1" onclick="addOneToGuest()">+1</button>
+                    <button id="guest-2" onclick="addTwoToGuest()">+2</button>
+                    <button id="guest-3" onclick="addThreeToGuest()">+3</button>
+                </div>
+            </div>
+            <button id="reset" onclick="resetScore()">Reset</button>
+        </main>
+    <script src="scoreboard.js"></script>
+    </body>
+</html>

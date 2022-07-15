@@ -1,0 +1,48 @@
+* {
+    font-family: monospace;
+    margin: 0;
+}
+.headline {
+    position: relative;
+    background-color: darkgray;
+    height: 87px;
+    padding: 10px;
+}
+
+
+.avatar {
+    position: absolute;
+    left: 91%;
+    height: 55px;
+    top: 19px;
+    bottom: 50%;
+}
+
+.name {
+    font-size: 35px;
+    margin-bottom: 1px;
+}
+
+.location {
+    margin-top: 1px;;
+    font-size: 25px;
+    opacity: 50%;
+}
+
+.content {
+    position: absolute;
+    background-color: lightgray;
+    padding: 10px;
+    display: flex;
+}
+
+h3 {
+    font-size: 35px;
+    border-bottom: 2px solid black
+    ;
+
+}
+
+.left {
+    padding-right: 50px;
+}

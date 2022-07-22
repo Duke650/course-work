@@ -8,9 +8,9 @@ let scoreDisplay = document.getElementById("score");
 
 
 setInterval(() => {
-let randomHole = Math.floor(Math.random() * holeEls.length);
-holeEls[randomHole].classList.toggle("mole")
-}, 1000, 10);
+    let randomHole = Math.floor(Math.random() * holeEls.length);
+    holeEls[randomHole].classList.toggle("mole")
+}, 500, 10);
 
 let gameArena = document.querySelector("#whack-a-mole");
 
@@ -22,5 +22,3 @@ gameArena.addEventListener("click", event => {
         scoreDisplay.textContent = score ++
     }
 })
-
-
